@@ -40,7 +40,7 @@ def input_image_setup(uploaded_file):
 
 st.set_page_config(page_title="Invoice-Extractor-App")
 
-st.header("Invoice Extractor App")
+st.header("Chat With Invoice")
 user_prompt = st.text_input("Ask a question about the invoice: ", key="input")
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
 image = ""   
